@@ -5,6 +5,7 @@ resource "spotify_playlist" "favourite" {
 
 data "spotify_search_track" "karthik" {
   artist = "karthik"
+  # limit = 5
 }
 resource "spotify_playlist" "karthik_music" {
     name = "karthik"
