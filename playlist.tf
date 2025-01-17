@@ -11,7 +11,7 @@ data "spotify_search_track" "<ARTIST_NAME>" {
   # limit = 5
 }
 resource "spotify_playlist" "<PLAY_LIST_NAME>" {
-    name = "<PLAY_LIST_NAME"
+    name = "<PLAY_LIST_NAME>"
     tracks = [data.spotify_search_track.<ARTIST_NAME>.tracks[0].id,
     data.spotify_search_track.<ARTIST_NAME>.tracks[1].id] 
 }
