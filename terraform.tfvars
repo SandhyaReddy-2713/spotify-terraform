@@ -1,1 +1,1 @@
-api_key = "6bO9w5PYvs5Xb4L2JU_HYlaxBcsW2GI9furYb1slJwUWbT4Va75YFOYtY3GbQGUD"
+api_key = "<PASTE_API_KEY>"
